@@ -1,0 +1,164 @@
+body{
+    height: 100%;
+    background-color: rgb(197, 13, 13);
+    margin: 0;
+    padding: 0;
+}
+ 
+header{
+    position: relative;
+    height: 100px;
+    width: 90%;
+    background-color: rgb(197, 13, 13);
+    margin-left: auto;
+    margin-right:auto;
+}
+ 
+.sprva{
+    position: relative;
+    left:0%;
+    top:25px;
+    width: 200px;
+    height: 50px;
+}
+ 
+header img{
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+ 
+.sdruga img{
+    position: relative;
+    left:10%;
+    width: 150px;
+    height: 200px;
+}
+ 
+.box1{
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    height: 300px;
+    left: 5%;
+    right:5%;
+    background-color: rgb(76, 179, 107);
+}
+ 
+.vl {
+    position: relative;
+    left: 190px;
+    border-left: 2px solid white;
+    height: 40px;
+}
+ 
+  .v2 {
+    position: relative;
+    left: 300px;
+    border-left: 2px solid white;
+    height: 40px;
+    top:-40px;
+}
+  
+ul{
+    background-color: grey;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    height: 40px;
+    font-size: 17px;
+    float: left;
+}
+ 
+li{
+ 
+    color: white;
+    display: inline-flex;
+    vertical-align: center;
+}
+ 
+li a{
+    position: relative;
+    color: white;
+    display: inline-flex; 
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 30px;
+    top:10px;
+}
+ 
+div.naslov1{
+    position: absolute;
+    color:white;
+    left:45%;
+    top:40px;
+}
+ 
+div.text1{
+    position: absolute;
+    color:white;
+    left:45%;
+    top:120px;
+    font-size: 13px;
+    margin-right:10%;
+}
+ 
+.box2{
+    position: absolute;
+    top: 420px;
+    width: 90%;
+    height: 500px;
+    left: 5%;
+    right:5%;
+    background-color: rgb(177, 199, 183);
+    margin-bottom: 20px;
+}
+ 
+.box2 ul{
+    background-color: rgb(126, 156, 201);
+    width: 35%;
+    margin: 0px;
+    padding: 0;
+    height: 500px;
+    font-size: 17px;
+ 
+    
+}
+ 
+.box2 li{
+    color: black;
+    display: block;
+}
+ 
+.box2 li a{
+    color: white;
+    margin-top:10px;
+    font-size: 14px;
+    left:10%;
+}
+ 
+hr{
+    position: relative;
+    display: block;
+    top:12px;
+    margin-left: 10%;
+    margin-right: 20%;;
+    border-style: inset;
+    border-width: 1px;
+}
+ 
+.naslov2{
+    position: absolute;
+    left:45%;
+    color:rgb(90, 90, 90);
+}
+ 
+.text2{
+    position: absolute;
+    top:50px;
+    left:45%;
+    margin-right:10%;
+    font-size: 15px;
+    color:rgb(90, 90, 90);
+    text-justify: auto;
+}
